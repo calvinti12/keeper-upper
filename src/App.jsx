@@ -52,6 +52,6 @@ setInterval(() => {
 
 setInterval(function () {
   http.get("http://keeper-upper.herokuapp.com");
-}, 1500000); // every 15 minutes (300000)
+}, 900000); // every 15 minutes (900000)
 
 export default App;
