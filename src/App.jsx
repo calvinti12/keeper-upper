@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import React, {useState, useEffect} from "react";
 const http = require('http')
-
 let pingApp;
 
 const App = () => {
@@ -51,5 +50,8 @@ setInterval(() => {
   pingApp("http://connect4riends.herokuapp.com", "connect4riends")
 }, 1800000)
 
+setInterval(function () {
+  http.get("http://keeper-upper.herokuapp.com");
+}, 1500000); // every 15 minutes (300000)
 
 export default App;
