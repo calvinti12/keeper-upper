@@ -23,7 +23,7 @@ pingApp = (url) => {
 setInterval(() => {
     pingApp("http://jbops.herokuapp.com", "jbops")
     pingApp("http://connect4riends.herokuapp.com", "connect4riends")
-}, 1800000)
+}, 900000)
 
 setInterval(function () {
     http.get("http://keeper-upper.herokuapp.com");
