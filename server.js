@@ -39,7 +39,7 @@ pingApp = (url) => {
 
 setInterval(() => {
     pingApp("http://jbops.herokuapp.com", "jbops")
-    pingApp("http://connect4riends.herokuapp.com", "connect4riends")
+    pingApp("https://restreamer-27zo.onrender.com", "restreamer")
 }, 900000)
 
 setInterval(function () {
